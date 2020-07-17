@@ -71,7 +71,7 @@
   }
 
   input[type=submit] {
-    width: 12.5%;
+    width: 100px;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -81,13 +81,33 @@
     cursor: pointer;
   }
 
-.contactconnect{
+.contactconnect {
     background-color: #20BFF7;
+    padding: 20px;
+}
+
+.contactus{
+    margin-bottom: 10px;
+}
+
+.call {
+    margin-bottom: 10px;
+}
+
+.visit{
+    margin-bottom: 10px;
 }
 
 .connect {
     width: 50%;
-    border: 1px solid black;
+}
+
+#updates{
+    margin-bottom: 10px;
+}
+
+.listserv{
+    margin-left: 20px;
 }
 
   a:link {
