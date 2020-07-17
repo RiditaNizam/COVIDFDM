@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maslowshierarchy>
+    <physiology>
+        <health>Health</health>
+        <food>Food and Water</food>
+        <sleep>Sleep</sleep>
+        <clothes>Clothes</clothes>
+        <shelter>Shelter</shelter>
+    </physiology>
+    <safety>
+        <personalsecurity>Personal Security</personalsecurity>
+        <financialsecurity>Financial Security</financialsecurity>
+        <wellbeing>Well-Being</wellbeing>
+        <accidents>Accidents</accidents>
+    </safety>
+    <socialbelonging>
+        <family>Family</family>
+        <friendship>Friendship</friendship>
+        <intimacy>Intimacy</intimacy>
+    </socialbelonging>
+    <esteem>
+        <selfesteem>Self-Esteem</selfesteem>
+        <depression>Depression</depression>
+    </esteem>
+    <selfactualization>Self-Actualization</selfactualization>
+</maslowshierarchy>

@@ -1,0 +1,109 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.toptext {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.flex-container > div {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    line-height: 30px;
+    margin: 60px;
+    text-align: center;
+}
+
+.flex-container img {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+.findresources {
+    font-size: 30px;
+}
+
+.learncare {
+    margin-top: 30px;
+}
+
+.tiletext {
+    justify-content: flex-end;
+}
+  .pink {
+    background-color: #D82656;
+  }
+
+  .orange {
+      background-color: #F4922D;
+  }
+
+  .green{
+      background-color: #1FAA13;
+  }
+
+  .blue {
+    background-color: #20BFF7;
+  }
+
+  .purple {
+    background-color: #9C79ED;
+  }
+
+  input[type=text], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #20BFF7;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 12.5%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+.contactconnect{
+    background-color: #20BFF7;
+}
+
+.connect {
+    width: 50%;
+    border: 1px solid black;
+}
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: black;
+  }
