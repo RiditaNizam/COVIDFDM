@@ -9,9 +9,9 @@
 .flex-container {
     display: flex;
     justify-content: center;
-  }
+}
 
-.flex-container > div {
+.flex-container>div {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
     height: 150px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
+}
 
 .findresources {
     font-size: 30px;
@@ -40,27 +40,29 @@
 .tiletext {
     justify-content: flex-end;
 }
-  .pink {
+
+.pink {
     background-color: #D82656;
-  }
+}
 
-  .orange {
-      background-color: #F4922D;
-  }
+.orange {
+    background-color: #F4922D;
+}
 
-  .green{
-      background-color: #1FAA13;
-  }
+.green {
+    background-color: #1FAA13;
+}
 
-  .blue {
+.blue {
     background-color: #20BFF7;
-  }
+}
 
-  .purple {
+.purple {
     background-color: #9C79ED;
-  }
+}
 
-  input[type=text], select {
+input[type=text],
+select {
     width: 25%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -68,9 +70,9 @@
     border: 1px solid #20BFF7;
     border-radius: 10px;
     box-sizing: border-box;
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     width: 100px;
     background-color: #4CAF50;
     color: white;
@@ -79,14 +81,14 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-  }
+}
 
 .contactconnect {
     background-color: #20BFF7;
     padding: 20px;
 }
 
-.contactus{
+.contactus {
     margin-bottom: 10px;
 }
 
@@ -94,7 +96,7 @@
     margin-bottom: 10px;
 }
 
-.visit{
+.visit {
     margin-bottom: 10px;
 }
 
@@ -102,28 +104,28 @@
     width: 50%;
 }
 
-#updates{
+#updates {
     margin-bottom: 10px;
 }
 
-.listserv{
+.listserv {
     margin-left: 20px;
 }
 
-  a:link {
+a:link {
     text-decoration: none;
     color: black;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  a:active {
+}
+
+a:active {
     text-decoration: underline;
     color: black;
-  }
+}
