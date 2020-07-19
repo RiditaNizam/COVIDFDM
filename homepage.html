@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>COVID Resources</title>
     <link rel="stylesheet" href="./stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -10,38 +10,47 @@
 
 <body>
 
-    <section class="toptext">
-        <div class="findresources">Find Resources About Coronavirus</div>
-        <div class="learncare">Care for yourself and others</div>
-    </section>
+    <header class="header">
+        <a href="" class="logo">COVID Resources</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="sitedescription">Find Resources About Coronavirus</div>
+    <div class="careeveryone">Care for yourself and others</div>
 
     <div class="flex-container">
         <div class="pink">
-            <a href="https://sustainablestartny.org/">
+            <a href="https://sustainablestartny.org/" target="_blank">
                 <img src="images/hygienekit.jpg">
                 <div class="tiletext">Health</div>
             </a>
         </div>
         <div class="pink">
-            <a href="https://www.feedingamerica.org/find-your-local-foodbank">
+            <a href="https://www.feedingamerica.org/find-your-local-foodbank" target="_blank">
                 <img src="images/strawberries.jpg">
                 <div class="tiletext">Food</div>
             </a>
         </div>
         <div class="pink">
-            <a href="https://www.sleepfoundation.org/sleep-guidelines-covid-19-isolation">
+            <a href="https://www.sleepfoundation.org/sleep-guidelines-covid-19-isolation" target="_blank">
                 <img src="images/bedroom.jpg">
                 <div class="tiletext">Sleep</div>
             </a>
         </div>
         <div class="pink">
-            <a href="https://www.stanthonysf.org/clothing">
+            <a href="https://www.stanthonysf.org/clothing" target="_blank">
                 <img src="images/shirt.jpg">
                 <div class="tiletext">Clothing</div>
             </a>
         </div>
         <div class="pink">
-            <a href="https://www.homelessshelterdirectory.org">
+            <a href="https://www.homelessshelterdirectory.org" target="_blank">
                 <img src="images/house.jpg">
                 <div class="tiletext">Shelter</div>
             </a>
@@ -50,25 +59,25 @@
 
     <div class="flex-container">
         <div class="orange">
-            <a href="http://publichealth.lacounty.gov/dvcouncil">
+            <a href="http://publichealth.lacounty.gov/dvcouncil" target="_blank">
                 <img src="images/lockkeys.jpg">
                 <div>Personal Security</div>
             </a>
         </div>
         <div class="orange">
-            <a href="https://www.consumerfinance.gov/coronavirus">
+            <a href="https://www.consumerfinance.gov/coronavirus" target="_blank">
                 <img src="images/money.jpg">
                 <div>Financial Security</div>
             </a>
         </div>
         <div class="orange">
-            <a href="https://tinyurl.com/wey62v8">
+            <a href="https://tinyurl.com/wey62v8" target="_blank">
                 <img src="images/yoga.jpg">
                 <div>Well-Being</div>
             </a>
         </div>
         <div class="orange">
-            <a href="https://tinyurl.com/yxjtjspo">
+            <a href="https://tinyurl.com/yxjtjspo" target="_blank">
                 <img src="images/accident.jpg">
                 <div>Accidents</div>
             </a>
@@ -77,19 +86,19 @@
 
     <div class="flex-container">
         <div class="green">
-            <a href="https://tinyurl.com/wh4n6jp">
+            <a href="https://tinyurl.com/wh4n6jp" target="_blank">
                 <img src="images/family.jpg">
                 <div>Family</div>
             </a>
         </div>
         <div class="green">
-            <a href="http://covidnetworks.org">
+            <a href="http://covidnetworks.org" target="_blank">
                 <img src="images/friends.jpg">
                 <div>Friendship</div>
             </a>
         </div>
         <div class="green">
-            <a href="https://tinyurl.com/y5kc3w44">
+            <a href="https://tinyurl.com/y5kc3w44" target="_blank">
                 <img src="images/relationship.jpg">
                 <div>Intimacy</div>
             </a>
@@ -98,13 +107,13 @@
 
     <div class="flex-container">
         <div class="blue">
-            <a href="https://www.selfesteemrising.org/covid-19-response">
+            <a href="https://www.selfesteemrising.org/covid-19-response" target="_blank">
                 <img src="images/confident.jpg">
                 <div>Self-Esteem</div>
             </a>
         </div>
         <div class="blue">
-            <a href="https://www.helpguide.org/articles/depression/dealing-with-depression-during-coronavirus.htm">
+            <a href="https://tinyurl.com/yxcx2ys5" target="_blank">
                 <img src="images/depressed.jpg">
                 <div>Depression</div>
             </a>
@@ -113,17 +122,30 @@
 
     <div class="flex-container">
         <div class="purple">
-            <a href="https://nziwr.co.nz/wp-content/uploads/2020/03/NZIWR_Real-time_Resilience_Coping_with_Coronavirus.pdf">
+            <a href="https://tinyurl.com/vmd9ju2" target="_blank">
                 <img src="images/actualization.jpg">
                 <div>Self-Actualization</div>
             </a>
         </div>
     </div>
 
+    <section class="carecontainer">
+        <div class="care">CARE FOR ALL</div>
+        <div class="everyone">Everyone, from the foothills of the Andes to the streets of Los Angeles, deserves
+            high-quality care, without financial burden to themselves or their families.</div>
+        <div class="descpara">Yet many people lack access.</div>
+        <div class="descpara">Our goal is to have an integrated care delivery model that operates from the facility
+            to
+            the community.</div>
+        </div>
+    </section>
+
+
+
     <section class="listserv">
         <div id="updates">COVID-19 UPDATES</div>
-        <div id="updatesdescription">Get e-mail updates about new resources</div>
-        <div>
+        <div>Get e-mail updates about new resources</div>
+        <div class="emailcontainer">
             <form>
                 <input type="text" id="email" name="email" placeholder="E-mail">
                 <input type="submit" value="Submit">
@@ -139,9 +161,7 @@
                 <a href="tel:5183313540">518-331-3540</a>
             </div>
             <div class="emailus">E-mail
-                <a href="mailto:RiditaN@gmail.com">
-          COVID RESOURCES
-        </a>
+                <a href="mailto:RiditaN@gmail.com">COVID RESOURCES</a>
             </div>
         </div>
     </section>
