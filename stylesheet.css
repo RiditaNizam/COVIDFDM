@@ -48,7 +48,7 @@
     }
 
     .header li a:hover, .header .menu-btn:hover {
-        background-color: white;
+        background-color: #20BFF7;
     }
 
     .header .logo {
@@ -59,7 +59,7 @@
         text-decoration: none;
     }
 
-    /* menu */
+    /* MENU */
 
     .header .menu {
         clear: both;
@@ -67,7 +67,7 @@
         transition: max-height .2s ease-out;
     }
 
-    /* menu icon */
+    /* MENU ICON */
 
     .header .menu-icon {
         cursor: pointer;
@@ -105,7 +105,7 @@
         top: -5px;
     }
 
-    /* menu btn */
+    /* MENU BUTTON */
 
     .header .menu-btn {
         display: none;
@@ -131,26 +131,10 @@
         top: 0;
     }
 
-    @media (min-width: 768px) {
-        .header li {
-            float: left;
-        }
-        .header li a {
-            padding: 20px 30px;
-        }
-        .header .menu {
-            clear: none;
-            float: right;
-            max-height: none;
-        }
-        .header .menu-icon {
-            display: none;
-        }
-    }
-
-    /* Site Description */
+    /* SITE DESCRIPTION */
 
     .sitedescription {
+        font-size: 25px;
         padding-top: 100px;
         text-align: center;
     }
@@ -160,10 +144,11 @@
         text-align: center;
     }
 
-    /* Flex Container */
+    /* FLEX CONTAINER */
 
     .flex-container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -174,7 +159,7 @@
         width: 150px;
         height: 200px;
         line-height: 30px;
-        margin: 60px;
+        margin: 50px;
         text-align: center;
     }
 
@@ -259,9 +244,9 @@
         margin-left: 20px;
     }
 
-.carecontainer{
-    padding: 20px;
-}
+    .carecontainer {
+        padding: 20px;
+    }
 
     .care {
         font-size: 25px;
@@ -278,11 +263,32 @@
         font-size: 15px;
     }
 
+    /* MEDIA QUERIES */
+
     @media screen and (max-width: 360px) {
-        .flex-container {
-            display: block;
-        }
         .emailcontainer #email {
             width: 90%;
+        }
+        .header .logo {
+            font-size: 25px;
+        }
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+
+    @media screen and (min-width: 768px) {
+        .header li {
+            float: left;
+        }
+        .header li a {
+            padding: 20px 30px;
+        }
+        .header .menu {
+            clear: none;
+            float: right;
+            max-height: none;
+        }
+        .header .menu-icon {
+            display: none;
         }
     }
